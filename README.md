@@ -7,6 +7,9 @@ Along with the file, it uploads a manifest which is a descriptor of the file sys
 
 ### docker-registry-client.go
 
+This code downloads the manifest and the relevant layers which are included the manifest. 
+
+#### Note
+
 This code uses the docker registry client implementation at https://github.com/nokia/docker-registry-client. 
 
-This code downloads the manifest and the relevant layers which are included the manifest. 
