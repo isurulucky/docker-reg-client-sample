@@ -1,0 +1,8 @@
+[prune]
+  go-tests = true
+  non-go = true
+  unused-packages = true
+
+[[constraint]]
+  name="github.com/nokia/docker-registry-client"
+  revision="bf401ccb7530925d4c1bda64849a593c2caba56"
